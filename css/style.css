@@ -1,0 +1,29 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden; }
+
+body {
+  font-family: 'Bitter', serif;
+  background: url(../img/jc.png) no-repeat center center fixed;
+  background-size: cover;
+  text-align: center; }
+
+h1, h2, h3 {
+  padding: 0;
+  margin: 0;
+  text-shadow: #fff 0 2px 5px; }
+
+h2, h3 {
+  color: #4c4c4c; }
+
+h1 {
+  font-size: 40px;
+  padding: 10px 0px 5px 0;
+  color: #004080; }
+
+h2 {
+  font-size: 30px; }
+
+h3 {
+  font-style: italic; }
