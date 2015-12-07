@@ -2,6 +2,7 @@
 
 body,
 html {
+  background: #ebebeb;
   margin: 0;
   overflow-x: hidden;
   padding: 0;
@@ -19,9 +20,16 @@ h3 {
   padding: 0;
 }
 
+.container {
+  background: #fff;
+  border: 1px dashed #ababab;
+  border-radius: 1px;
+  margin: 15px;
+}
+
 header {
   color: #dc0b0b;
-  padding: 20px 30px;
+  padding: 30px 40px;
 
   h1 {
     border-bottom: 1px dashed #dc0b0b;
@@ -37,6 +45,27 @@ header {
   }
 
 }
+
+
+.corner-ribbon {
+  width: 270px;
+  background: #e43;
+  position: fixed;
+  top: 30px;
+  right: -80px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+
+  &.shadow {
+    box-shadow: 0 0 3px rgba(0, 0, 0, .3);
+  }
+}
+
+
 
 .main {
   padding: 0 20px;
