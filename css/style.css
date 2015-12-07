@@ -1,29 +1,55 @@
-body, html {
-  padding: 0;
+body,
+html {
   margin: 0;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  padding: 0; }
 
 body {
-  font-family: 'Bitter', serif;
-  background: url(../img/jc.png) no-repeat center center fixed;
   background-size: cover;
-  text-align: center; }
+  font-family: 'Helvetica', Arial, sans-serif; }
 
-h1, h2, h3 {
-  padding: 0;
-  margin: 0;
-  text-shadow: #fff 0 2px 5px; }
-
-h2, h3 {
-  color: #4c4c4c; }
-
-h1 {
-  font-size: 40px;
-  padding: 10px 0px 5px 0;
-  color: #004080; }
-
-h2 {
-  font-size: 30px; }
-
+h1,
+h2,
 h3 {
-  font-style: italic; }
+  margin: 0;
+  padding: 0; }
+
+header {
+  color: #dc0b0b;
+  padding: 20px 30px; }
+  header h1 {
+    border-bottom: 1px dashed #dc0b0b;
+    display: inline-block;
+    font-size: 40px;
+    padding: 0 0 15px; }
+  header h2 {
+    font-size: 20px;
+    padding: 15px 0 0;
+    max-width: 350px; }
+
+.main {
+  padding: 0 20px; }
+
+ul {
+  margin-left: -40px; }
+
+.polaroids {
+  margin-bottom: 40px; }
+  .polaroids li {
+    border: 1px solid #eee;
+    border-radius: 2px;
+    box-shadow: -2px 4px 5px #ddd;
+    display: inline-block;
+    list-style: none;
+    padding: 13px;
+    margin: 15px;
+    max-width: 275px; }
+    .polaroids li img {
+      border: 1px solid #eee;
+      width: 100%; }
+  .polaroids .caption {
+    color: #333;
+    font-family: 'Pacifico', serif;
+    font-size: 24px;
+    padding: 5px 0;
+    text-align: center; }
