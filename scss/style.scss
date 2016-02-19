@@ -22,48 +22,26 @@ h3 {
 
 .container {
   background: #fff;
-  border: 1px dashed #ababab;
   border-radius: 1px;
-  margin: 15px;
+  margin: 25px;
+  text-align: center;
 }
 
 header {
   color: #dc0b0b;
-  padding: 30px 40px;
+  padding-top: 30px;
 
   h1 {
-    border-bottom: 1px dashed #dc0b0b;
     display: inline-block;
     font-size: 40px;
-    padding: 0 0 15px;
   }
 
   h2 {
     font-size: 20px;
     padding: 15px 0 0;
-    max-width: 450px;
-  }
-
-}
-
-.corner-ribbon {
-  width: 270px;
-  background: #e43;
-  position: fixed;
-  top: 30px;
-  right: -80px;
-  text-align: center;
-  line-height: 50px;
-  letter-spacing: 1px;
-  color: #f0f0f0;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-
-  &.shadow {
-    box-shadow: 0 0 3px rgba(0, 0, 0, .3);
+    letter-spacing: 1px;
   }
 }
-
 
 .main {
   padding: 0 20px;
@@ -74,8 +52,7 @@ ul {
 }
 
 .polaroids {
-  margin-top: 0;
-  margin-bottom: 40px;
+  padding: 40px;
 
   li {
     border: 1px solid #eee;
@@ -89,6 +66,7 @@ ul {
 
     img {
       border: 1px solid #eee;
+      border-bottom: 2px solid #eee;
       width: 100%;
     }
   }
